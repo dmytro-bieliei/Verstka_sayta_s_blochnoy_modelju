@@ -3,11 +3,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #926239;
-  
+  margin: 0;
 }
 
 p {
   margin: 0;
+  font-size: 17px;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+section {
+  box-sizing: content-box;
+  display: block;
+  min-width: 400px;
+  width: 100%;
+  font-size: 0;
 }
 
 .Image_background {
@@ -23,12 +34,30 @@ p {
 
 }
 
-.Brown_background {
-background-color:  #926239;
-color: #fff;
+
+.btn {
+  color: #926239;
+  border: #926239 1px solid;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+
 }
 
-.block {
+.btn:hover {
+  background-color: #926239;
+  color: #fff;
+}
+
+
+.Brown_background {
+  -color:  #926239;
+  color: #fff;
+}
+
+.column {
   display: inline-block;
-  width: 33%;
+  width: 30%;
 }
